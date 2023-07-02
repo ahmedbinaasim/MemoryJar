@@ -1,0 +1,140 @@
+body {
+    background-color: #f2e8dc;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3c342f;
+    padding: 20px;
+  }
+  .container {
+    background-color: #f5f0ea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #3c342f;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input,
+  textarea,
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #3c342f;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  .memories .memory {
+    background-color: #f2e8dc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .memories h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #3c342f;
+  }
+  .memories p {
+    font-size: 16px;
+    color: #3c342f;
+  }
+  .moon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #3c342f;
+    font-style: italic;
+    text-align: center;
+  }
+  .moon img {
+    display: none;
+  }
+
+  .delete-button {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    padding: 5px; /* Adjust padding values as needed */
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 10%
+  }
+  
+  .edit-button {
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px; /* Adjust padding values as needed */
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 10%
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    body {
+      padding: 10px;
+    }
+    .container {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    input,
+    textarea,
+    button {
+      font-size: 14px;
+    }
+    .memories .memory {
+      padding: 10px;
+    }
+    .delete-button {
+      bottom: 5px;
+      right: 5px;
+      padding: 2px 5px;
+      font-size: 12px;
+    }
+    .edit-button {
+      bottom: 5px;
+      right: 75px;
+      padding: 2px 5px;
+      font-size: 12px;
+    }
+  }

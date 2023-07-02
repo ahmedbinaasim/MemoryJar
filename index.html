@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual Memory Jar</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container" id="mainContainer" style="display: none;">
+    <h1>Virtual Memory Jar</h1>
+    <div class="mode-buttons">
+      <button id="writeButton" onclick="setMode('write')">Write</button>
+      <button id="readButton" onclick="setMode('read')">Read</button>
+    </div>
+    <form id="memoryForm" style="display: none;">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+      <label for="memory">Memory:</label>
+      <textarea id="memory" required></textarea>
+      <button type="submit">Add Memory</button>
+    </form>
+    <div class="memories" id="memoryDisplay"></div>
+  </div>
+  <div class="container" id="passwordContainer">
+    <h1>Virtual Memory Jar</h1>
+    <form id="passwordForm">
+      <label for="password">Enter Password:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
